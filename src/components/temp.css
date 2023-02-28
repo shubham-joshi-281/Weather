@@ -94,7 +94,6 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #57bd84;
-
 }
 .temp {
   display: flex;
@@ -248,6 +247,6 @@ body {
   }
   .para span {
     width: 100%;
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }
