@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Weathercard from "./Weathercard";
 import "./temp.css";
+import Notfound from "./Notfound";
 const Temp = () => {
   const [searchvalue, SetSearchValue] = useState("haldwani");
   const [tempInfo, setTempInfo] = useState("");
@@ -28,7 +29,7 @@ const Temp = () => {
       };
       setTempInfo(myWeather);
     } catch (error) {
-      console.log(error);
+      alert("404 oops! search Not Found");
     }
   };
 
